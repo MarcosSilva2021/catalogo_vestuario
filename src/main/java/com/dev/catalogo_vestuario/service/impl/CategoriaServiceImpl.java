@@ -30,7 +30,7 @@ public class CategoriaServiceImpl implements CategoriaService {
     }
 
     @Override
-    public Categoria addMarca(Categoria categoria) {
+    public Categoria addCategoria(Categoria categoria) {
         logger.info("Adicionando nova marca: {}", categoria);
         return repository.save(categoria);
     }
