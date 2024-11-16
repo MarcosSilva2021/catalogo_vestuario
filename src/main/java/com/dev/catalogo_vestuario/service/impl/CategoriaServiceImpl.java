@@ -52,7 +52,7 @@ public class CategoriaServiceImpl implements CategoriaService {
         existingCategoria.setNome(categoriaToUpdate.getNome());        
 
         Categoria updatedCategoria = repository.save(existingCategoria);
-        logger.info("Categoria com ID {} atualizada com sucesso: {}", id, updatedMarca);
+        logger.info("Categoria com ID {} atualizada com sucesso: {}", id, updatedCategoria);
 
         return updatedCategoria;
     }

@@ -8,7 +8,7 @@ public interface CategoriaService {
 
     Categoria findById(String uuid);
 
-    Categoria addMarca(Categoria categoria);    
+    Categoria addCategoria(Categoria categoria);    
 
     List<Categoria> findAll();
     
