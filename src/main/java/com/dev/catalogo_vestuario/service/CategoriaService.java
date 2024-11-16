@@ -12,7 +12,7 @@ public interface CategoriaService {
 
     List<Categoria> findAll();
     
-    Categoria update(String id, Categoria userToUpdate);
+    Categoria update(String id, Categoria categoriaToUpdate);
 
     void delete( String uuid) ;
 }
