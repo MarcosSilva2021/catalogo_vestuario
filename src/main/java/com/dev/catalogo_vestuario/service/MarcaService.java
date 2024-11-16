@@ -12,7 +12,7 @@ public interface MarcaService {
 
     List<Marca> findAll();
     
-    Marca update(Long id, Marca userToUpdate);
+    Marca update(String id, Marca userToUpdate);
 
     void delete( String uuid) ;    
 

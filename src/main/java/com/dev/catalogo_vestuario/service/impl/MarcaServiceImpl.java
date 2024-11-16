@@ -53,7 +53,7 @@ public class MarcaServiceImpl implements MarcaService {
     }
 
     @Override
-    public Marca update(Long id, Marca marcaToUpdate) {
+    public Marca update(String id, Marca marcaToUpdate) {
         logger.info("Atualizando marca com ID: {}", id);
 
         Marca existingMarca = repository.findById(String.valueOf(id))
