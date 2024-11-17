@@ -53,7 +53,7 @@ public class VestuarioController {
     @PatchMapping("/{idVestuario}/marca/{idMarca}")
     public ResponseEntity<Vestuario> addMarca(@PathVariable String idVestuario, @PathVariable String idMarca) {
         logger.info("Adicionando marca {} ao vestuário {}", idMarca, idVestuario);
-        Vestuario updatedVestuario = service.adddMarca(idVestuario, idMarca);
+        Vestuario updatedVestuario = service.addMarca(idVestuario, idMarca);
         return ResponseEntity.ok(updatedVestuario);
     }
 
