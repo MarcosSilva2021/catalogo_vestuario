@@ -6,11 +6,13 @@ import java.util.NoSuchElementException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.dev.catalogo_vestuario.models.Categoria;
 import com.dev.catalogo_vestuario.repositories.CategoriaRepository;
 import com.dev.catalogo_vestuario.service.CategoriaService;
 
+@Service
 public class CategoriaServiceImpl implements CategoriaService {
 
     private static final Logger logger = LoggerFactory.getLogger(CategoriaServiceImpl.class);
