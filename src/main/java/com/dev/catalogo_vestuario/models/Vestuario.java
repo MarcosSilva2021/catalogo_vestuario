@@ -48,6 +48,14 @@ public class Vestuario {
         this.urlDaImagem = urlDaImagem;
     }
 
+    public void addCategoria(Categoria categoria){
+        this.categorias.add(categoria);
+    }
+
+    public void addMarca(Marca marca){
+        this.marcas.add(marca);
+    } 
+
     @Override
     public int hashCode() {
         final int prime = 31;
@@ -78,14 +86,4 @@ public class Vestuario {
             return false;
         return true;
     }
-
-    public void addCategoria(Categoria categoria){
-        this.categorias.add(categoria);
-    }
-
-    public void addMarca(Marca marca){
-        this.marcas.add(marca);
-    }
-    
-
 }
