@@ -85,7 +85,7 @@ public class VestuarioServiceImpl implements VestuarioService {
     }
 
     @Override
-    public Vestuario adddMarca(String idVestuario, String idMarca) {
+    public Vestuario addMarca(String idVestuario, String idMarca) {
         logger.info("Associando marca {} ao vestuário {}", idMarca, idVestuario);
 
         Vestuario vestuario = vestRepository.findById(idVestuario)

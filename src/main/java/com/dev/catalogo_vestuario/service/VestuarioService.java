@@ -17,7 +17,7 @@ public interface VestuarioService {
     void delete( String uuid) ;
 
     // Associa uma marca a um vestuario
-    Vestuario adddMarca(String idVestuario, String idMarca);
+    Vestuario addMarca(String idVestuario, String idMarca);
 
     // Associa uma Categoria a um vestuario
     Vestuario addCategoria(String idVestuario, String idCategoria);
